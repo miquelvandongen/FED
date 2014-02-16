@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Frontend</title>
+
+<meta name="description" content="oefenopdracht">
+<meta name="keywords" content="HTML, oefening, HVA, formulier">
+<meta name="author" content="Miquel van Dongen">
+<meta charset="UTF-8">
+
+</head>
+
+<body>
+
+<nav> <!-- navigatie --> </nav>
+
+	<main>
+		<section>
+			<article>
+					<h1> Aanmelden </h1>
+						<p>
+							Bent u geinteresseerd in samenwerken met CMD Amsterdam? Dat kan!
+							Tijdens de opleiding werken studenten aan projecten voor echte opdrachtgevers. Ook
+							lopen de studenten stage, in het tweede en afstudeerjaar.
+						</p>
+
+						<p>
+							<em>
+								CMD Amsterdam zoekt altijd naar positieve verbindingen met de creatieve stad Amsterdam.
+							</em>
+						</p>
+
+						<p>
+							Voor het aanmelden van stageplekken of projecten kunt u onderstaand formulier invullen.
+							Wij nemen zo nodig contact met u op nadat het formulier is verstuurd.
+							Voor vragen of opmerkingen kunt u <a href="contact.html">contact</a> met ons op.
+						</p>
+
+						<p>
+
+						    <fieldset>
+						    	<legend>Contactgegevens</legend>
+						    	
+						    	<label for="name">Naam</label>
+						    	<input type="text" id="name" placeholder="Naam"/>
+						    	
+						    	<label for="street">Straat</label>
+						    	<input type="text" id="street" placeholder="Straatnaam"/>
+						    	
+						    	<label for="number">Huisnummer</label>
+						    	<input type="text" pattern="[0-9]{1,}" id="number" placeholder="Huisnummer"/>
+						    	
+						    	<label for="zip">Postcode</label>
+						    	<input type="text" pattern="[1-9][0-9]{3}\s?[a-zA-Z]{2}" id="zip"/>
+
+						    	<label for="place">Plaats</label>
+						    	<input type="text" id="place" placeholder="Plaats"/>
+						    	
+						    	<label for="tel">Telefoon</label>
+						    	<input type="tel"  id="tel"/>
+
+						    	 <label for="email">Email</label>
+						    	<input type="email" id="email"/>
+
+
+						    </fieldset>
+
+
+						    <fieldset>
+						    	<legend>Ik wil mijn aanmelden voor:</legend>
+						    	
+						    	<input type="radio" name="aanmelden" value="project" />Voor een project
+								<input type="radio" name="aanmelden" value="Stage" />Als stagebedrijf
+
+						    </fieldset>
+
+							<input type="submit" value="submit">					    
+
+				<table style="width:700px" border="1px solid black"> <!-- table style als voorbeeld, verwijderen wanneer een stylesheet wordt gemaakt -->
+					<tr>
+						<td><h2>Project</h2></td>
+						<td><h2>Stage</h2></td>
+					</tr>
+
+					<tr>
+						<td>
+							<ol>
+								<li>Titel</li>
+								<li>Opdrachtomschrijving</li>
+								<li>Doelgroepomschrijving</li>
+								<li>Doelstelling/ intentie van het project</li>
+								<li>Looptijd</li>
+								<li>Deadline</li>
+							</ol>
+						</td>
+
+						<td>Geschikt voor:
+							<ol>
+								<li>tweedejaars studenten</li>
+								<li>afstudeer studenten</li>
+								<li>Onbekend</li>
+							</ol>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							Geschikt voor:
+							<ol>
+								<li>eerstejaars studenten</li>
+								<li>tweedejaars studenten</li>
+								<li>derdejaars studenten</li>
+								<li>afstudeer studenten</li>
+								<li>Onbekend</li>
+							</ol>						
+						</td>
+
+						<td>
+							<ol>
+								<li> Hoelang is de stage? </li>
+									<ul>
+										<li> -10 weken </li>
+										<li> -20 weken </li>
+									</ul>
+								<li> Begin datum
+							<ol>
+						</td>
+					</tr>
+
+					<tr>
+						<td></td>
+						<td>Beschrijving werkzaamheden: 
+							<ol>
+								<li>Beschrijving stagewerkzaamheden</li>
+							</ol>
+						</td>
+					</tr>
+
+					<tr>
+						<td></td>
+						<td>Beschrijving stagebedrijf
+							<ol>
+								<li>Bedrijfsnaam</li>
+								<li>Adres</li>
+								<li>postcode</li>
+								<li>plaats</li>
+								<li>sector</li>
+								<li>core business</li>
+							</ol>							
+						</td>
+					</tr>
+
+					<tr>
+						<td>Opmerking</td>
+						<td>Opmerking</td>
+					</tr>
+
+				</table>
+
+
+			</article>
+		</section>
+	</main>
+	
+	<section>
+		<aside> <!-- sidebar --> </aside>
+	</section>
+
+
+	<footer> <!-- footer --> </footer>
+
+</body>
+
+</html>
+
